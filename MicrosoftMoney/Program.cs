@@ -9,7 +9,22 @@ namespace MicrosoftMoney
 {
     class Program
     {
-        
+        private static int count;
+        private static List<char> myChar;
+        private static List<string> xml;
+        private static List<string> xmlSetting;
+        private static string moneyFile;
+        private static byte[] fileToByte;
+        private static byte[] fileToByte2;
+
+        public int Count { get => count; set => count = value; }
+        public List<char> MyChar { get => myChar; set => myChar = value; }
+        public List<string> Xml { get => xml; set => xml = value; }
+        public List<string> XmlSetting { get => xmlSetting; set => xmlSetting = value; }
+        public string MoneyFile { get => moneyFile; set => moneyFile = value; }
+        public byte[] FileToByte { get => fileToByte; set => fileToByte = value; }
+        public byte[] FileToByte2 { get => fileToByte2; set => fileToByte2 = value; }
+
         static void Main(string[] args)
         {
             
